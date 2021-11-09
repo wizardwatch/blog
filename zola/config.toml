@@ -13,3 +13,16 @@ build_search_index = true
 
 [extra]
 # Put all your custom variables here
+theme = "after-dark"
+paginate_by = 5
+taxonomies = [
+    # You can enable/disable RSS
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+after_dark_menu = [
+    {url = "$BASE_URL", name = "Home"},
+    {url = "$BASE_URL/categories", name = "Categories"},
+    {url = "$BASE_URL/tags", name = "Tags"},
+    {url = "https://google.com", name = "Google"},
+]
