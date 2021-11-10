@@ -1,3 +1,6 @@
 [submodule "themes/ananke"]
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "content/CTF-Knowledge-Base/knowledge-base"]
+	path = content/knowledge-base/knowledge-base
+	url = https://github.com/Genchumen/knowledge-base
