@@ -1,5 +1,5 @@
 # Hi
-My name is Wyatt, though on the web I am usually addressed as wizardwatch. I am a highschool student with an interest in computer science, especially as it relates to the [Free Software](https://www.gnu.org/philosophy/free-sw.html). If you found this site and don't know me physically, congratulations on making it to the end of the internet; I hope you find something you like here.
+My name is Wyatt, though on the web I am usually addressed as wizardwatch. I am a highschool student with an interest in computer science, especially as it relates to [Free Software](https://www.gnu.org/philosophy/free-sw.html). If you found this site and don't know me physically, congratulations on making it to the end of the internet; I hope you find something you like here.
 
 # Interests
 
