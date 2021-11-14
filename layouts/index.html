@@ -9,7 +9,9 @@
   {{ if ge $section_count 1 }}
     {{/* Derive the section name  */}}
     {{ $section_name := index (.Site.Params.mainSections) 0 }}
-
+	<article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center lh-copy mid-gray wm9">
+    		{{ .Content }}
+  	</article>
     <div class="pa3 pa4-ns w-100 w-70-ns center">
       {{/* Use $section_name to get the section title. Use "with" to only show it if it exists */}}
        {{ with .Site.GetPage "section" $section_name }}
@@ -20,7 +22,7 @@
 
       {{ $n_posts := $.Param "recent_posts_number" | default 3 }}
 
-      <section class="w-100 mw8">
+      <section class="w-100 mw9">
         {{/* Range through the first $n_posts items of the section */}}
         {{ range (first $n_posts $section) }}
           <div class="relative w-100 mb4">
@@ -49,8 +51,5 @@
       {{ end }}
 
       </div>
-        <article class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
-    		{{ .Content }}
-  	</article>
   {{ end }}
 {{ end }}

@@ -1,3 +1,1 @@
-[Blog](blog/)
-[Knowledge Base](knowledge-base/)
-[About Me](about-me/)
+This is my (wizardwatch's) little corner of the internet, a place where I get to write about anything I want. If you found this site and don’t know me physically, congratulations on making it to the end of the internet; I hope you find something you like here. I can't promise you will find something you enjoy, but if you do I invite you to take a seat, grab a drink, and stay a while.

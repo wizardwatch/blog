@@ -11,7 +11,7 @@ theme = "ananke"
   twitter = ""
   instagram = ""
   youtube = ""
-  github = "https://github.com/wizardwatch"
+  github = ""
   gitlab = ""
   linkedin = ""
   mastodon = ""
@@ -19,6 +19,7 @@ theme = "ananke"
   stackoverflow = ""
   rss = ""
   mainSections = ['blog']
+  custom_css = ["css/custom.css"]
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-black"
   recent_posts_number = 2
