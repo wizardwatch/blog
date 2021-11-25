@@ -2,6 +2,9 @@ baseURL = "https://wizardwatch.net/"
 languageCode = "en-us"
 title = "wizardwatch"
 theme = "ananke"
+[taxonomies]
+  series = "series"
+  tags = "tags"
 [params]
   author = ""
   favicon = ""

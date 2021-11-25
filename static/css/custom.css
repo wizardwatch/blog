@@ -2,8 +2,9 @@ main {
 	width: 100%;
 }
 p {
-	padding-inline: 17%;
+	padding-inline: 5%;
 	text-align: left;
+	font-size: 28px;
 }
 a {
 	color: inherit;
@@ -11,4 +12,28 @@ a {
 .top_margin {
 	margin-inline: 2.5%;
 	text-decoration: none;
+}
+@media screen and (max-width: 800px) {
+  .top_margin{font-size: 24px}
+	p{
+		font-size: 22px
+	}
+}
+@media screen and (max-width: 675px) {
+  .top_margin{font-size: 20px}
+	p{
+		font-size: 20px
+	}
+}
+@media screen and (max-width: 640px) {
+  .top_margin{font-size: 18px}
+	p{
+		font-size: 16px
+	}
+}
+@media screen and (max-width: 600px) {
+  .top_margin{font-size: 17px}
+	p{
+		font-size: 15px
+	}
 }

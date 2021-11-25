@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wizardwatch</title>
+    <link>https://wizardwatch.net/knowledge-base/cs-ctf/</link>
+    <description>Recent content on wizardwatch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://wizardwatch.net/knowledge-base/cs-ctf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/readme/</guid>
+      <description>The Genchumen Knowledge-Base This project seeks to serve as a source for quick information to aid in solving Capture-The-Flag challenges, although it could very well serve as a general launching point for learning about cybersecurity.</description>
+    </item>
+    
+    <item>
+      <title>Algorithms</title>
+      <link>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/algo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/algo/</guid>
+      <description>Modulo Function  Written as % or $\mod x$  The modulo function is the equivalent of taking the remainder of two numbers.
+Modular Equivalence A common way to express modular equivalence by a number $n$ is $x\equiv y\pmod n$
+Greatest Common Divisor  Written as $gcd(x,y)$  The greatest common divisor of two or more integers is the largest positive integer that divides each of the integers.
+Least Common Multiple  Written as $lcm(x,y)$  Euler&#39;s Totient Function  A.</description>
+    </item>
+    
+    <item>
+      <title>Binary Inspection</title>
+      <link>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/bin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/bin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cryptography</title>
+      <link>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/crypto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/crypto/</guid>
+      <description>Public-Key Cryptosystems Okamoto-Uchiyama The Okamoto-Uchiyama cryptosystem is homomorphic and malleable. cryptosystem.
+ Choose random primes $p$ and $q$ Compute $n=p^2q$ Choose $g\in{2\ldots n-1}$ such that $g^{p-1} \not\equiv 1\bmod p^2$ Compute $h=g^n\bmod n$  Encryption  Choose message $m&amp;lt;p$ Chose integer $r\in{1\ldots n-1}$ at random Compute ciphertext $c=g^mh^r\bmod n$  Decryption  Define $L(x)=\frac{x-1}{p}$ $m=\frac{L(c^{p-1}\bmod p^2)}{L(g^{p-1}\bmod p^2)}\bmod p$  RSA Rivest-Shamir-Adleman
+ Choose random primes $p$ and $q$ Compute $n=pq$ Compute [Euler&#39;s totient](algo.</description>
+    </item>
+    
+    <item>
+      <title>Network/wifi</title>
+      <link>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/wifi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/wifi/</guid>
+      <description>Wired Equivalent Privacy WEP uses the Rivest Cipher 4 algorithm for packet encryption and the 32-bit version of the Cyclic Rendundancy Check to verify packet integrity.
+Fluhrer, Mantin, Shamir Attack The FMS attack exploits WEP&#39;s use of weak initialization vectors (only 24 bits) with RC4.
+Passive Initialization Vector Capture If a target network has enough traffic, an attacker can passively sniff packets until identical IV&#39;s are captured.
+Packet Injection Packet injection can be used to generate more traffic in a WEP network, generating more IV&#39;s to capture.</description>
+    </item>
+    
+    <item>
+      <title>Open-Source Intelligence</title>
+      <link>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/osint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/osint/</guid>
+      <description>Image Coordinate Identification The goal of image coordinate identification questions is to find where an image was taken and/or other details surrounding the circumstances of the image.
+Reverse Image search Reverse image searching is one of the most bang-for-your-buck techniques in image coordinate identification. It also offers a launching point to find search terms that describe your image.
+Here are some good reverse image search engines:
+ Google&amp;mdash;especially for images taken from Google maps Yandex TinEye  Flags Self-explanatory&amp;mdash;images where you see a flag were probably taken in the place that uses said flag!</description>
+    </item>
+    
+    <item>
+      <title>Reverse Engineering</title>
+      <link>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/re/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/re/</guid>
+      <description>Basic Tools strings binwalk Debuggers and Decompilers GNU Debugger Cutter </description>
+    </item>
+    
+    <item>
+      <title>Steganography</title>
+      <link>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/stego/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/stego/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>web</title>
+      <link>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/web/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/web/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

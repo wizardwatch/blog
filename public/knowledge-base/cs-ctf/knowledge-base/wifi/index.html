@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Network/wifi | wizardwatch</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Wired Equivalent Privacy WEP uses the Rivest Cipher 4 algorithm for packet encryption and the 32-bit version of the Cyclic Rendundancy Check to verify packet integrity.
+Fluhrer, Mantin, Shamir Attack The FMS attack exploits WEP&#39;s use of weak initialization vectors (only 24 bits) with RC4.
+Passive Initialization Vector Capture If a target network has enough traffic, an attacker can passively sniff packets until identical IV&#39;s are captured.
+Packet Injection Packet injection can be used to generate more traffic in a WEP network, generating more IV&#39;s to capture.">
+    <meta name="generator" content="Hugo 0.88.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
+
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Network/wifi" />
+<meta property="og:description" content="Wired Equivalent Privacy WEP uses the Rivest Cipher 4 algorithm for packet encryption and the 32-bit version of the Cyclic Rendundancy Check to verify packet integrity.
+Fluhrer, Mantin, Shamir Attack The FMS attack exploits WEP&#39;s use of weak initialization vectors (only 24 bits) with RC4.
+Passive Initialization Vector Capture If a target network has enough traffic, an attacker can passively sniff packets until identical IV&#39;s are captured.
+Packet Injection Packet injection can be used to generate more traffic in a WEP network, generating more IV&#39;s to capture." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/wifi/" /><meta property="article:section" content="knowledge-base" />
+
+
+
+<meta itemprop="name" content="Network/wifi">
+<meta itemprop="description" content="Wired Equivalent Privacy WEP uses the Rivest Cipher 4 algorithm for packet encryption and the 32-bit version of the Cyclic Rendundancy Check to verify packet integrity.
+Fluhrer, Mantin, Shamir Attack The FMS attack exploits WEP&#39;s use of weak initialization vectors (only 24 bits) with RC4.
+Passive Initialization Vector Capture If a target network has enough traffic, an attacker can passively sniff packets until identical IV&#39;s are captured.
+Packet Injection Packet injection can be used to generate more traffic in a WEP network, generating more IV&#39;s to capture.">
+
+<meta itemprop="wordCount" content="236">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Network/wifi"/>
+<meta name="twitter:description" content="Wired Equivalent Privacy WEP uses the Rivest Cipher 4 algorithm for packet encryption and the 32-bit version of the Cyclic Rendundancy Check to verify packet integrity.
+Fluhrer, Mantin, Shamir Attack The FMS attack exploits WEP&#39;s use of weak initialization vectors (only 24 bits) with RC4.
+Passive Initialization Vector Capture If a target network has enough traffic, an attacker can passively sniff packets until identical IV&#39;s are captured.
+Packet Injection Packet injection can be used to generate more traffic in a WEP network, generating more IV&#39;s to capture."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+	<h2 class="white-90" style="text-align: center">
+		<a class="top_margin" href="/">~</a>
+		<a class="top_margin" href="/blog/">~/Blog</a>
+		<a class="top_margin" href="/knowledge-base/">~/Knowledge_Base</a>
+		<a class="top_margin" href="/about-me/">~/About_Me</a>
+		<a class="top_margin" href="https://github.com/wizardwatch">~/Github</a>
+	</h2>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        
+      </aside>
+      
+      <h1 class="f1 athelas mt3 mb1">Network/wifi</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="wired-equivalent-privacy">Wired Equivalent Privacy</h1>
+<p>WEP uses the <a href="crypto.org::*RC4">Rivest Cipher 4</a> algorithm for packet
+encryption and the 32-bit version of the Cyclic Rendundancy Check to
+verify packet integrity.</p>
+<h2 id="fluhrer-mantin-shamir-attack">Fluhrer, Mantin, Shamir Attack</h2>
+<p>The FMS attack exploits WEP's use of weak initialization vectors (only
+24 bits) with RC4.</p>
+<h3 id="passive-initialization-vector-capture">Passive Initialization Vector Capture</h3>
+<p>If a target network has enough traffic, an attacker can passively sniff
+packets until identical IV's are captured.</p>
+<h3 id="packet-injection">Packet Injection</h3>
+<p>Packet injection can be used to generate more traffic in a WEP network,
+generating more IV's to capture.</p>
+<h2 id="fake-authentication">Fake Authentication</h2>
+<h1 id="wi-fi-protected-access-1">Wi-Fi Protected Access 1</h1>
+<h1 id="wi-fi-protected-access-2">Wi-Fi Protected Access 2</h1>
+<h2 id="krack">KRACK</h2>
+<h2 id="four-way-handshake-capture">Four-Way Handshake Capture</h2>
+<p>The authentication handshake of WPA2 contains the passkey salted with
+the access point's ESSID and hashed with
+PBKDF2-HMAC-<a href="crypto.org::*SHA">SHA</a>1. This hash can be bruteforced.</p>
+<h3 id="passively">Passively</h3>
+<p>If clients often connect to the target network, or reconnect after the
+network starts, an attacker may be able to capture all four parts of the
+handshake.</p>
+<h3 id="deauthentication">Deauthentication</h3>
+<p>If the authentication handshakes cannot be captured passively, an
+attacker can perform a deauthentication attack until all four parts of
+the handshake are captured.</p>
+<h2 id="pairwise-master-key-identifier-capture">Pairwise Master Key Identifier Capture</h2>
+<h1 id="wi-fi-protected-access-3">Wi-Fi Protected Access 3</h1>
+<h2 id="dragonfly">Dragonfly</h2>
+<h1 id="bluetooth">Bluetooth</h1>
+<h2 id="knob">KNOB</h2>
+<h1 id="jargon">Jargon</h1>
+<p>EAPOL:: Extensible Authentication Protocol over LAN LAN:: Local Area
+Network WPA:: Wireless Protected Access PSK:: Preshared Key PMKID::
+Pairwise Master Key Identifier WPS:: Wi-Fi Protected Setup WEP:: Wired
+Equivalent Privacy KRACK:: Key Reinstallation Attack FRAG::
+Fragmentation and Aggregation Attacks FMS:: Fluhrer, Mantin,Shamir PTW::
+Pyshkin, Tews, Weinmann</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+  </body>
+</html>

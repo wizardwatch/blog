@@ -1,0 +1,14 @@
+main {
+	width: 100%;
+}
+p {
+	padding-inline: 17%;
+	text-align: left;
+}
+a {
+	color: inherit;
+}
+.top_margin {
+	margin-inline: 2.5%;
+	text-decoration: none;
+}

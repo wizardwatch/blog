@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Cryptography | wizardwatch</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Public-Key Cryptosystems Okamoto-Uchiyama The Okamoto-Uchiyama cryptosystem is homomorphic and malleable. cryptosystem.
+ Choose random primes $p$ and $q$ Compute $n=p^2q$ Choose $g\in{2\ldots n-1}$ such that $g^{p-1} \not\equiv 1\bmod p^2$ Compute $h=g^n\bmod n$  Encryption  Choose message $m&lt;p$ Chose integer $r\in{1\ldots n-1}$ at random Compute ciphertext $c=g^mh^r\bmod n$  Decryption  Define $L(x)=\frac{x-1}{p}$ $m=\frac{L(c^{p-1}\bmod p^2)}{L(g^{p-1}\bmod p^2)}\bmod p$  RSA Rivest-Shamir-Adleman
+ Choose random primes $p$ and $q$ Compute $n=pq$ Compute [Euler&#39;s totient](algo.">
+    <meta name="generator" content="Hugo 0.88.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
+
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Cryptography" />
+<meta property="og:description" content="Public-Key Cryptosystems Okamoto-Uchiyama The Okamoto-Uchiyama cryptosystem is homomorphic and malleable. cryptosystem.
+ Choose random primes $p$ and $q$ Compute $n=p^2q$ Choose $g\in{2\ldots n-1}$ such that $g^{p-1} \not\equiv 1\bmod p^2$ Compute $h=g^n\bmod n$  Encryption  Choose message $m&lt;p$ Chose integer $r\in{1\ldots n-1}$ at random Compute ciphertext $c=g^mh^r\bmod n$  Decryption  Define $L(x)=\frac{x-1}{p}$ $m=\frac{L(c^{p-1}\bmod p^2)}{L(g^{p-1}\bmod p^2)}\bmod p$  RSA Rivest-Shamir-Adleman
+ Choose random primes $p$ and $q$ Compute $n=pq$ Compute [Euler&#39;s totient](algo." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/crypto/" /><meta property="article:section" content="knowledge-base" />
+
+
+
+<meta itemprop="name" content="Cryptography">
+<meta itemprop="description" content="Public-Key Cryptosystems Okamoto-Uchiyama The Okamoto-Uchiyama cryptosystem is homomorphic and malleable. cryptosystem.
+ Choose random primes $p$ and $q$ Compute $n=p^2q$ Choose $g\in{2\ldots n-1}$ such that $g^{p-1} \not\equiv 1\bmod p^2$ Compute $h=g^n\bmod n$  Encryption  Choose message $m&lt;p$ Chose integer $r\in{1\ldots n-1}$ at random Compute ciphertext $c=g^mh^r\bmod n$  Decryption  Define $L(x)=\frac{x-1}{p}$ $m=\frac{L(c^{p-1}\bmod p^2)}{L(g^{p-1}\bmod p^2)}\bmod p$  RSA Rivest-Shamir-Adleman
+ Choose random primes $p$ and $q$ Compute $n=pq$ Compute [Euler&#39;s totient](algo.">
+
+<meta itemprop="wordCount" content="158">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Cryptography"/>
+<meta name="twitter:description" content="Public-Key Cryptosystems Okamoto-Uchiyama The Okamoto-Uchiyama cryptosystem is homomorphic and malleable. cryptosystem.
+ Choose random primes $p$ and $q$ Compute $n=p^2q$ Choose $g\in{2\ldots n-1}$ such that $g^{p-1} \not\equiv 1\bmod p^2$ Compute $h=g^n\bmod n$  Encryption  Choose message $m&lt;p$ Chose integer $r\in{1\ldots n-1}$ at random Compute ciphertext $c=g^mh^r\bmod n$  Decryption  Define $L(x)=\frac{x-1}{p}$ $m=\frac{L(c^{p-1}\bmod p^2)}{L(g^{p-1}\bmod p^2)}\bmod p$  RSA Rivest-Shamir-Adleman
+ Choose random primes $p$ and $q$ Compute $n=pq$ Compute [Euler&#39;s totient](algo."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+	<h2 class="white-90" style="text-align: center">
+		<a class="top_margin" href="/">~</a>
+		<a class="top_margin" href="/blog/">~/Blog</a>
+		<a class="top_margin" href="/knowledge-base/">~/Knowledge_Base</a>
+		<a class="top_margin" href="/about-me/">~/About_Me</a>
+		<a class="top_margin" href="https://github.com/wizardwatch">~/Github</a>
+	</h2>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        
+      </aside>
+      
+      <h1 class="f1 athelas mt3 mb1">Cryptography</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="public-key-cryptosystems">Public-Key Cryptosystems</h1>
+<h2 id="okamoto-uchiyama">Okamoto-Uchiyama</h2>
+<p>The Okamoto-Uchiyama cryptosystem is homomorphic and malleable.
+cryptosystem.</p>
+<ol>
+<li>Choose random primes $p$ and $q$</li>
+<li>Compute $n=p^2q$</li>
+<li>Choose $g\in{2\ldots n-1}$ such that
+$g^{p-1} \not\equiv 1\bmod p^2$</li>
+<li>Compute $h=g^n\bmod n$</li>
+</ol>
+<h3 id="encryption">Encryption</h3>
+<ol>
+<li>Choose message $m&lt;p$</li>
+<li>Chose integer $r\in{1\ldots n-1}$ at random</li>
+<li>Compute ciphertext $c=g^mh^r\bmod n$</li>
+</ol>
+<h3 id="decryption">Decryption</h3>
+<ol>
+<li>Define $L(x)=\frac{x-1}{p}$</li>
+<li>$m=\frac{L(c^{p-1}\bmod p^2)}{L(g^{p-1}\bmod p^2)}\bmod p$</li>
+</ol>
+<h2 id="rsa">RSA</h2>
+<p>Rivest-Shamir-Adleman</p>
+<ol>
+<li>Choose random primes $p$ and $q$</li>
+<li>Compute $n=pq$</li>
+<li>Compute [Euler's totient](algo.org::*Euler&rsquo;s Totient Function) of
+$n$, $\varphi(n)=(p-1)(q-1)$</li>
+<li>Choose $e$ such that $1&lt;e&lt;\varphi(n)$</li>
+<li>Compute $d$ such that $de \equiv 1\bmod \varphi(n)$</li>
+<li>Choose message $m$</li>
+<li>Compute ciphertext $c\equiv m^e \bmod n$</li>
+<li>$m\equiv c^d \bmod n$</li>
+</ol>
+<h1 id="symmetric-key-cryptosystems">Symmetric-Key Cryptosystems</h1>
+<p>Symmetric cryptosystems are malleable.</p>
+<h2 id="stream-ciphers">Stream Ciphers</h2>
+<p>Stream ciphers often produce correlated ciphertext. The initialization
+vector used must be random and unique to prevent</p>
+<h3 id="ctr">CTR</h3>
+<p>Counter mode</p>
+<p>Counter mode is a method of using a block cipher as a stream cipher.</p>
+<h3 id="rc4">RC4</h3>
+<p>Rivest Cipher 4</p>
+<h2 id="block-ciphers">Block Ciphers</h2>
+<h3 id="aes">AES</h3>
+<p>Advanced Encryption Standard</p>
+<h3 id="des">DES</h3>
+<p>Data Encryption Standard</p>
+<h1 id="hash-functions">Hash Functions</h1>
+<h2 id="sha">SHA</h2>
+<p>Secure Hash Algorithm</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wizardwatch</title>
+    <link>https://wizardwatch.net/blog/</link>
+    <description>Recent content on wizardwatch</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Nov 2021 21:42:13 -0500</lastBuildDate><atom:link href="https://wizardwatch.net/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://wizardwatch.net/blog/my-first-post/</link>
+      <pubDate>Mon, 08 Nov 2021 21:42:13 -0500</pubDate>
+      
+      <guid>https://wizardwatch.net/blog/my-first-post/</guid>
+      <description>I am not sure if I am doing this correctly, but if I am &amp;ldquo;Hello World!&amp;rdquo; I am wizardwatch and I am here to blog about everything under the sun, with a focus on NixOS and programming content.</description>
+    </item>
+    
+  </channel>
+</rss>

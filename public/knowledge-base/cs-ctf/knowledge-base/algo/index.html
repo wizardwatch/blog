@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Algorithms | wizardwatch</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Modulo Function  Written as % or $\mod x$  The modulo function is the equivalent of taking the remainder of two numbers.
+Modular Equivalence A common way to express modular equivalence by a number $n$ is $x\equiv y\pmod n$
+Greatest Common Divisor  Written as $gcd(x,y)$  The greatest common divisor of two or more integers is the largest positive integer that divides each of the integers.
+Least Common Multiple  Written as $lcm(x,y)$  Euler&#39;s Totient Function  A.">
+    <meta name="generator" content="Hugo 0.88.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+  
+    <link rel="stylesheet" href="/css/custom.css">
+  
+
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="Algorithms" />
+<meta property="og:description" content="Modulo Function  Written as % or $\mod x$  The modulo function is the equivalent of taking the remainder of two numbers.
+Modular Equivalence A common way to express modular equivalence by a number $n$ is $x\equiv y\pmod n$
+Greatest Common Divisor  Written as $gcd(x,y)$  The greatest common divisor of two or more integers is the largest positive integer that divides each of the integers.
+Least Common Multiple  Written as $lcm(x,y)$  Euler&#39;s Totient Function  A." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://wizardwatch.net/knowledge-base/cs-ctf/knowledge-base/algo/" /><meta property="article:section" content="knowledge-base" />
+
+
+
+<meta itemprop="name" content="Algorithms">
+<meta itemprop="description" content="Modulo Function  Written as % or $\mod x$  The modulo function is the equivalent of taking the remainder of two numbers.
+Modular Equivalence A common way to express modular equivalence by a number $n$ is $x\equiv y\pmod n$
+Greatest Common Divisor  Written as $gcd(x,y)$  The greatest common divisor of two or more integers is the largest positive integer that divides each of the integers.
+Least Common Multiple  Written as $lcm(x,y)$  Euler&#39;s Totient Function  A.">
+
+<meta itemprop="wordCount" content="164">
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Algorithms"/>
+<meta name="twitter:description" content="Modulo Function  Written as % or $\mod x$  The modulo function is the equivalent of taking the remainder of two numbers.
+Modular Equivalence A common way to express modular equivalence by a number $n$ is $x\equiv y\pmod n$
+Greatest Common Divisor  Written as $gcd(x,y)$  The greatest common divisor of two or more integers is the largest positive integer that divides each of the integers.
+Least Common Multiple  Written as $lcm(x,y)$  Euler&#39;s Totient Function  A."/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+	<h2 class="white-90" style="text-align: center">
+		<a class="top_margin" href="/">~</a>
+		<a class="top_margin" href="/blog/">~/Blog</a>
+		<a class="top_margin" href="/knowledge-base/">~/Knowledge_Base</a>
+		<a class="top_margin" href="/about-me/">~/About_Me</a>
+		<a class="top_margin" href="https://github.com/wizardwatch">~/Github</a>
+	</h2>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        
+      </aside>
+      
+      <h1 class="f1 athelas mt3 mb1">Algorithms</h1>
+      
+      
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="modulo-function">Modulo Function</h1>
+<ul>
+<li>Written as % or $\mod x$</li>
+</ul>
+<p>The modulo function is the equivalent of taking the remainder of two
+numbers.</p>
+<h2 id="modular-equivalence">Modular Equivalence</h2>
+<p>A common way to express modular equivalence by a number $n$ is
+$x\equiv y\pmod
+n$</p>
+<h1 id="greatest-common-divisor">Greatest Common Divisor</h1>
+<ul>
+<li>Written as $gcd(x,y)$</li>
+</ul>
+<p>The greatest common divisor of two or more integers is the largest
+positive integer that divides each of the integers.</p>
+<h1 id="least-common-multiple">Least Common Multiple</h1>
+<ul>
+<li>Written as $lcm(x,y)$</li>
+</ul>
+<h1 id="eulers-totient-function">Euler's Totient Function</h1>
+<ul>
+<li>A.k.a. Euler's phi function</li>
+<li>Written as $\varphi(n)$ or $\phi(n)$</li>
+</ul>
+<p>Euler's totient function returns the number of positive integers less
+than $n$ that are [<em>relatively prime</em>]{.spurious-link
+target=&ldquo;Greatest Common Divisor&rdquo;} to $n$.</p>
+<p>$\varphi(n)$ is the number of $k\in\mathbb{N}$ such that $k\le n$ and
+$gcd(k,n)=1$.</p>
+<h1 id="carmichaels-totient-function">Carmichael's Totient Function</h1>
+<ul>
+<li>A.k.a. the reduced totient function or the least universal exponent
+function</li>
+<li>Written as $\lambda(n)$</li>
+</ul>
+<p>Carmichael's totient function returns the exponent of the
+multiplicative group of positive integers modulo $n$.</p>
+<p>For every $a\in\mathbb{N}$, $\lambda(n)$ is the smallest
+$m\in\mathbb{N}$ such that $a^m\equiv1\bmod n$, $a\le n$, and
+$gcd(a,n)= 1$</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <script>
+MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+  </body>
+</html>
