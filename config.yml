@@ -1,0 +1,156 @@
+baseURL: "https://wizardwatch.net"
+title: wizardwatch
+paginate: 99
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        menu:
+            main:
+                - name: Search
+                  url: search/
+                  weight: 10
+                - name: Tags
+                  url: tags/
+                  weight: 10
+                - name: RSS
+                  url: index.xml
+                  weight: 10
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    description: "My little corner of the internet."
+    author: Wyatt Osterling
+    # author: ["Me", "You"] # multiple authors
+
+    defaultTheme: "dark"
+    disableThemeToggle: true
+    ShowShareButtons: false
+    ShowReadingTime: true
+    # disableSpecial1stPost: true
+    displayFullLangName: true
+    ShowPostNavLinks: true
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: true
+    ShowToc: true
+    # comments: false
+
+    profileMode:
+        enabled: true
+        title: wizardwatch
+        imageUrl: "whitelogo.png"
+        imageTitle: logo
+        imageWidth: 180
+        imageHeight: 180
+        buttons:
+            - name: About
+              url: about
+            - name: Projects
+              url: projects
+            - name: Blog
+              url: blog
+            - name: GitHub
+              url: "https://github.com/wizardwatch"
+    homeInfoParams:
+        Title: "wizardwatch"
+        Content: >
+            This is wizardwatch's little corner of the internet.
+
+            - I like NixOS and other tools the provide more correctness.
+
+            - If you wish, grab a drink and stay a while.
+
+    socialIcons:
+
+    editPost:
+        URL: "https://github.com/wizardwatch"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: false # to append file path to Edit link
+
+    # label:
+    #     text: "Home"
+    #     icon: icon.png
+    #     iconHeight: 35
+
+    # analytics:
+    #     google:
+    #         SiteVerificationTag: "XYZabc"
+
+    # assets:
+    #     favicon: "<link / abs url>"
+    #     favicon16x16: "<link / abs url>"
+    #     favicon32x32: "<link / abs url>"
+    #     apple_touch_icon: "<link / abs url>"
+    #     safari_pinned_tab: "<link / abs url>"
+
+    # cover:
+    #     hidden: true # hide everywhere but not in structured data
+    #     hiddenInList: true # hide on list pages and home
+    #     hiddenInSingle: true # hide on single page
+
+    # fuseOpts:
+    #     isCaseSensitive: false
+    #     shouldSort: true
+    #     location: 0
+    #     distance: 1000
+    #     threshold: 0.4
+    #     minMatchCharLength: 0
+    #     keys: ["title", "permalink", "summary", "content"]
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
+
+markup:
+    highlight:
+      style: "dracula"
+    goldmark:
+        renderer:
+            unsafe: true
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         # noClasses: false
+#         style: monokai
+
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
+
+services:
+    instagram:
+        disableInlineCSS: true
+    twitter:
+        disableInlineCSS: true

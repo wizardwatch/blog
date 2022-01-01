@@ -2,5 +2,8 @@
 	path = themes/ananke
 	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
 [submodule "content/CTF-Knowledge-Base/knowledge-base"]
-	path = content/knowledge-base/CS-CTF/knowledge-base
+	path = content/projects/CS_and_CTF_knowledge-base/knowledge-base
 	url = https://github.com/Genchumen/knowledge-base
+[submodule "themes/hugo-coder"]
+	path = themes/hugo-coder
+	url = https://github.com/luizdepra/hugo-coder.git
