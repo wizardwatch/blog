@@ -1,4 +1,8 @@
-```nix{
+---
+title: flake.nix
+---
+```nix
+{
 description = "My system conf";
 inputs = rec {
 	# set the channel

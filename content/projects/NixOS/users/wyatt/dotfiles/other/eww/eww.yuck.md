@@ -1,3 +1,7 @@
+---
+title: eww.yuck
+---
+```
 (defwindow time
 	:monitor 0
 	:windowtype "dock"
@@ -47,3 +51,4 @@
 		(sidestuff)	
 	)
 )
+```

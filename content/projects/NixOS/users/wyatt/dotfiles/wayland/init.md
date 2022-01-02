@@ -1,3 +1,7 @@
+---
+title: init
+---
+```
 #!/bin/sh
 
 # Modifier Options
@@ -102,3 +106,4 @@ riverctl border-width 4
 riverctl border-color-focused 0xbd93f9
 riverctl border-color-unfocused 0x44475a
 riverctl background-color 0x282a36
+```

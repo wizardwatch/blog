@@ -1,4 +1,8 @@
-```nix{pkgs, ...}:{
+---
+title: main.nix
+---
+```nix
+{pkgs, ...}:{
 	fonts.fontconfig = {
 		enable = true;
               };

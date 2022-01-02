@@ -1,4 +1,8 @@
-```nix{ config, lib, pkgs, ... }:
+---
+title: neovim.nix
+---
+```nix
+{ config, lib, pkgs, ... }:
 	let
 		perlPkgs = with pkgs.perl532Packages; [
 			Appcpanminus
