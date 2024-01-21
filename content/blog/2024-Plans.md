@@ -1,3 +1,9 @@
+---
+title: "2024-Plans"
+date: 2024-01-20
+draft: false
+tags: ["nixos", "bio", "2024"]
+---
 # 2024 Plans
 The past couple years have had some big changes! I go to UGA now! I am now focusing on learning biotech, the software for which runs on a recently built homelab. I’ve had a few jobs, and learned so much. It’s been great! Unfortunately, I have failed to document this journey, and it is time to start.
 ## The Past
